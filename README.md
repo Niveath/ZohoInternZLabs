@@ -1,6 +1,6 @@
 # ZohoInternZLabs
 
-# Mapping CVEs to MITRE ATT&CK Framework using SecRoBERTa
+# Mapping CVEs to MITRE ATT&CK Framework using SecureBERT
 
 ## Dataset used : 
 
