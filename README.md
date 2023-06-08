@@ -31,6 +31,6 @@
 
 # FontCode: Embedding Information in Text Documents using Glyph Perturbation
 
-Find the code to perform encoding and decoding of text [here](https://github.com/Niveath/ZohoInternZLabs/blob/main/Watermark/FontCode.ipynb)
+Find the code to perform encoding and decoding of text [here](https://github.com/Niveath/ZohoInternZLabs/blob/main/FontCode.ipynb)
 
 Find the original paper [here](https://arxiv.org/pdf/1707.09418.pdf)
