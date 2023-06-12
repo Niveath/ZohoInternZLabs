@@ -34,3 +34,16 @@
 Find the code to perform encoding and decoding of text [here](https://github.com/Niveath/ZohoInternZLabs/blob/main/FontCode.ipynb)
 
 Find the original paper [here](https://arxiv.org/pdf/1707.09418.pdf)
+
+# Image Enhancement
+
+## Dataset used:
+
+- [This dataset has a set of camera images of documents with various imperfections such as folding, curved, etc.](https://sg-vilab.github.io/event/warpdoc/)
+
+## Approach:
+
+Pertubation based text embedding techniques greatly depend on the quality of image when decoding. Hence, to improve the image quality, we perform the following process
+
+- Perform image dewarping to correct the angle. The [DocTr++](https://arxiv.org/pdf/2304.08796.pdf) model was used.
+- Super resolution was perform to 2x scale. [Real-ESRGAN](https://huggingface.co/ai-forever/Real-ESRGAN) model was used. 
